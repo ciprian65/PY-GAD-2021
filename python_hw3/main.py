@@ -50,7 +50,8 @@ class Fractie(object):
 f1 = Fractie(1, 6)
 f2 = Fractie(3, 4)
 
-print(f1.__add__(f2))
-print(f2.__sub__(f1))
+print(f1 + f2)
+print(f2 - f1)
 print(f1.inverse())
 print(f2.inverse())
+
